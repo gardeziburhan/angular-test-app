@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learnpro';
+  helloName: string;
+  constructor(){
+    this.helloName = 'other World';
+  }
 }
